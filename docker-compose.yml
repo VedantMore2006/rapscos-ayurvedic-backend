@@ -1,34 +1,24 @@
+# Deployed on the shared VPS behind the host's own Nginx (one shared reverse
+# proxy for every project on the box) — this repo's container only needs to
+# publish its API port to 127.0.0.1, TLS/domain routing is handled outside
+# this compose file. The bundled `nginx`/80/443 service from earlier revisions
+# was removed for that reason; standing up a second Nginx here would just
+# collide with the host's.
 services:
-  api:
+  rapscos-ayurvedic:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: rapscos_api
+    container_name: rapscos-ayurvedic
     restart: always
+    env_file:
+      - .env
     environment:
       - DATABASE_URL=sqlite:////app/data/rapscos.db
-      - JWT_SECRET=${JWT_SECRET}
       - JWT_EXPIRATION_DAYS=30
-      - MIN_AUTH_MS=700
-      - ADMIN_INVITE_CODE=${ADMIN_INVITE_CODE}
-      - CORS_ORIGINS=${CORS_ORIGINS:-https://www.rapscosbio.com,https://rapscosbio.com,http://localhost:5173}
       - MEDIA_DIR=/app/media
     volumes:
       - ./data:/app/data
       - ./media:/app/media
     ports:
-      - "8777:8777"
-
-  nginx:
-    image: nginx:alpine
-    container_name: rapscos_nginx
-    restart: always
-    volumes:
-      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
-      - ./media:/media:ro
-      - /etc/letsencrypt:/etc/letsencrypt:ro
-    ports:
-      - "80:80"
-      - "443:443"
-    depends_on:
-      - api
+      - "127.0.0.1:8094:8777"
