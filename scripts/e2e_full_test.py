@@ -5,8 +5,8 @@ import time
 import uuid
 import httpx
 
-API_BASE = "http://127.0.0.1:8000"
-FRONTEND_BASE = "http://localhost:5173"
+API_BASE = os.getenv("API_BASE", "http://127.0.0.1:8777")
+FRONTEND_BASE = os.getenv("FRONTEND_BASE", "http://localhost:5173")
 
 report = []
 
@@ -131,6 +131,7 @@ def run_tests():
         assert r_login_new.status_code == 200
         log("Re-login with New Password", "PASS", "Successfully logged in with updated credentials")
     except Exception as e:
+        import traceback; traceback.print_exc()
         log("Customer Lifecycle", "FAIL", str(e))
 
     # 6. Admin Authentication & Role Protection
@@ -140,7 +141,7 @@ def run_tests():
             "email": "rapscos1933@gmail.com",
             "password": "Admin@1933"
         })
-        assert r_admin_login.status_code == 200
+        assert r_admin_login.status_code == 200, f"Admin login failed: {r_admin_login.status_code} {r_admin_login.text}"
         admin_data = r_admin_login.json()
         admin_token = admin_data["token"]
         assert admin_data["user"]["role"] in ("owner", "admin")
@@ -151,6 +152,7 @@ def run_tests():
         assert r_forbidden.status_code == 403, f"Expected 403, got {r_forbidden.status_code}"
         log("Admin Guard Protection", "PASS", "Customer token correctly blocked from admin endpoints (403 Forbidden)")
     except Exception as e:
+        import traceback; traceback.print_exc()
         log("Admin Authentication", "FAIL", str(e))
 
     # 7. Products & Categories End-to-End Dynamic Sync Test
@@ -274,10 +276,16 @@ def run_tests():
     print(f"📊 SUMMARY: {passed} PASSED, {failed} FAILED across {len(report)} tests")
     print("=" * 60)
 
-    # Save artifact report
-    report_path = "/home/vedant/.gemini/antigravity-ide/brain/7bac2077-6150-4d2e-a9b4-dad14680d1a7/e2e_test_report.json"
-    with open(report_path, "w") as f:
-        json.dump(report, f, indent=2)
+    # Save artifact report if possible
+    default_report = "/home/vedant/.gemini/antigravity-ide/brain/7bac2077-6150-4d2e-a9b4-dad14680d1a7/e2e_test_report.json"
+    report_path = os.getenv("REPORT_PATH", default_report if os.path.exists(os.path.dirname(default_report)) else "e2e_test_report.json")
+    try:
+        os.makedirs(os.path.dirname(os.path.abspath(report_path)), exist_ok=True)
+        with open(report_path, "w") as f:
+            json.dump(report, f, indent=2)
+        print(f"Report saved to: {report_path}")
+    except Exception as e:
+        print(f"Report save note: {e}")
 
 if __name__ == "__main__":
     run_tests()
