@@ -1,0 +1,817 @@
+{
+  "site": {
+    "name": "Rapscos Bio Pharma Pvt. Ltd.",
+    "short": "Rapscos",
+    "founded": 1933,
+    "phone": "+91 86689 84043",
+    "email": "rapscos1933@gmail.com",
+    "whatsapp": "918668984043",
+    "address": "D-1/6, MIDC, Ambad, Nashik – 422 010",
+    "web": "www.RapscosBio.com",
+    "url": "https://www.rapscosbio.com"
+  },
+  "home": {
+    "heroBadge": "Trusted by 20 lakh+ people every year",
+    "heroText": "Since 1933, Rapscos has blended timeless Ayurvedic wisdom with modern science — crafting trusted remedies loved across three generations.",
+    "heroImageBack": "/images/kofyx.jpeg",
+    "heroImageFront": "/images/saunf-ark.jpeg",
+    "servedCount": 20,
+    "servedSuffix": " Lakh+",
+    "servedLabel": "People served every year",
+    "needs": [
+      {
+        "cat": "wellness",
+        "q": "Heavy or bloated after meals?",
+        "a": "Churnas, Gulkand & Saunf Ark for everyday gut comfort."
+      },
+      {
+        "cat": "hair",
+        "q": "Hair fall or early greying?",
+        "a": "Pranafuel serum and herbal oils that nourish from the root."
+      },
+      {
+        "cat": "skin",
+        "q": "Dry, dull or tired skin?",
+        "a": "Rose water, Multani Mitti and gentle body care."
+      },
+      {
+        "cat": "cold",
+        "q": "Cough, cold or body ache?",
+        "a": "Kofyx, Adulsa, balm and rub — trusted family relief."
+      },
+      {
+        "cat": "baby",
+        "q": "Little one teething?",
+        "a": "Dikamali Churna, a traditional teething remedy."
+      },
+      {
+        "cat": "mens",
+        "q": "Looking for more vitality?",
+        "a": "Encounter X, our Ayurvedic men's wellness formula."
+      }
+    ],
+    "signatureText": "The heritage remedies that built the Rapscos name — the ones families reorder, year after year.",
+    "legacyText": "Founded by Rajmal Premraj Khatod and trademarked in 1946, Rapscos is today led by the third generation, Dr. Pritish Khatod — uniting authentic Ayurveda with modern research and global compliance.",
+    "promiseText": "Message us on WhatsApp — our team will guide you personally, the way we have for families since 1933."
+  },
+  "categories": [
+    {
+      "key": "wellness",
+      "name": "Wellness & Digestive",
+      "img": "/images/amala-churna/amla-churna-2.jpeg"
+    },
+    {
+      "key": "hair",
+      "name": "Hair Care",
+      "img": "/images/pranafuel-serum.jpeg"
+    },
+    {
+      "key": "skin",
+      "name": "Skin & Body",
+      "img": "/images/rose-water.jpeg"
+    },
+    {
+      "key": "cold",
+      "name": "Cold, Cough & Pain",
+      "img": "/images/kofyx.jpeg"
+    },
+    {
+      "key": "baby",
+      "name": "Baby Care",
+      "img": "/images/dikamali.jpeg"
+    },
+    {
+      "key": "mens",
+      "name": "Men's Wellness",
+      "img": "/images/encounter-x.jpeg"
+    }
+  ],
+  "products": [
+    {
+      "id": "saunf-ark",
+      "name": "Saunf Ark",
+      "cat": "wellness",
+      "price": 85,
+      "size": "Fennel Ark · 3 ml",
+      "desc": "A traditional Ayurvedic extract of fennel seeds that aids digestion and provides a cooling effect.",
+      "images": [
+        "/images/saunf-ark.jpeg"
+      ],
+      "benefits": [
+        "Eases digestion discomfort",
+        "Reduces bloating and gas",
+        "Soothes stomach cramps",
+        "Enhances gut health"
+      ],
+      "howto": "Add a few drops to a little water and take after meals, or as directed."
+    },
+    {
+      "id": "clove-oil",
+      "name": "Clove Oil",
+      "cat": "skin",
+      "price": 70,
+      "size": "Oil · 5 ml",
+      "desc": "An Ayurvedic remedy known for analgesic and antimicrobial properties that support oral hygiene.",
+      "images": [
+        "/images/clove-oil.jpeg"
+      ],
+      "benefits": [
+        "Provides relief from toothache",
+        "Helps soothe sore gums",
+        "Antimicrobial action",
+        "Supports oral health"
+      ],
+      "howto": "Apply a drop to the affected tooth or gum using clean cotton. Use sparingly. For oral/external use."
+    },
+    {
+      "id": "adulsa",
+      "name": "Adulsa Cough Syrup",
+      "cat": "cold",
+      "price": 110,
+      "size": "Cough Syrup · 100 ml",
+      "desc": "A herbal remedy with Adhatoda vasica (Malabar nut), known for its expectorant and anti-inflammatory action.",
+      "images": [
+        "/images/adulsa.jpeg"
+      ],
+      "benefits": [
+        "Acts as a natural expectorant",
+        "Soothes throat irritation",
+        "Eases breathing and congestion",
+        "Supports respiratory health"
+      ],
+      "howto": "Adults: 2 teaspoons two to three times a day. Children: 1 teaspoon, or as directed by a physician."
+    },
+    {
+      "id": "kofyx",
+      "name": "Kofyx Cough Syrup",
+      "cat": "cold",
+      "price": 140,
+      "size": "Sugar-Free · 100 ml",
+      "desc": "A premium sugar-free herbal cough syrup with a menthol-honey flavour that soothes the throat naturally.",
+      "images": [
+        "/images/kofyx.jpeg"
+      ],
+      "benefits": [
+        "Soothes throat and relieves cough",
+        "Non-drowsy, sugar-free formula",
+        "Boosts immunity",
+        "Eases congestion and breathing"
+      ],
+      "howto": "Adults: 2 teaspoons (10 ml) two to three times a day. Children: 1 teaspoon, or as directed by a physician."
+    },
+    {
+      "id": "shatavari",
+      "name": "Shatavari Kalpa",
+      "cat": "wellness",
+      "price": 260,
+      "size": "Women's Tonic",
+      "desc": "An Ayurvedic formulation from Shatavari root, valued for promoting women's health, fertility and hormonal balance.",
+      "images": [
+        "/images/shatavari.jpeg"
+      ],
+      "benefits": [
+        "Supports women's reproductive health",
+        "Helps balance hormones",
+        "Supports lactation and vitality",
+        "Boosts immunity",
+        "Adaptogenic — eases stress"
+      ],
+      "howto": "Take 1 teaspoon with a glass of warm milk or water, once or twice daily, preferably after meals, or as directed."
+    },
+    {
+      "id": "gulkand",
+      "name": "Gulkand",
+      "cat": "wellness",
+      "price": 150,
+      "size": "Prval Yukta · Rose Preserve",
+      "desc": "A sweet preserve of rose petals used in Ayurveda for its cooling and rejuvenating qualities.",
+      "images": [
+        "/images/gulkand.webp"
+      ],
+      "benefits": [
+        "Provides a natural cooling effect",
+        "Rich in antioxidants",
+        "Acts as a natural energiser",
+        "Aids digestion"
+      ],
+      "howto": "Take 1 teaspoon once or twice daily, on its own or stirred into a glass of milk."
+    },
+    {
+      "id": "rose-water",
+      "name": "Rose Water",
+      "cat": "skin",
+      "price": 90,
+      "size": "Pure & Natural",
+      "desc": "A fragrant liquid made by steeping rose petals, popular for skincare and aromatherapy.",
+      "images": [
+        "/images/rose-water.jpeg"
+      ],
+      "benefits": [
+        "Soothes skin irritation",
+        "Hydrates and revitalises skin",
+        "Reduces redness and puffiness",
+        "Offers a natural fragrance"
+      ],
+      "howto": "Apply to clean skin with a cotton pad as a toner, or spritz lightly through the day."
+    },
+    {
+      "id": "skin-md",
+      "name": "Skin MD Body Lotion",
+      "cat": "skin",
+      "price": 160,
+      "size": "Body Lotion · 50 ml",
+      "desc": "An Ayurvedic body lotion with aloe vera, cucumber extract and vitamin E to nourish and protect skin.",
+      "images": [
+        "/images/skin-md.jpeg"
+      ],
+      "benefits": [
+        "Provides lasting hydration",
+        "Soothes irritation and redness",
+        "Improves skin elasticity",
+        "Non-greasy, lightweight"
+      ],
+      "howto": "Apply evenly to clean skin as needed, especially after bathing."
+    },
+    {
+      "id": "petroleum-jelly",
+      "name": "White Petroleum Jelly",
+      "cat": "skin",
+      "price": 95,
+      "size": "Rapsco's Fancy",
+      "desc": "A pure white petroleum jelly that locks in moisture and forms a protective barrier for the skin.",
+      "images": [
+        "/images/petroleum-jelly.jpeg"
+      ],
+      "benefits": [
+        "Locks in moisture, prevents dryness",
+        "Soothes and softens rough patches",
+        "Protects skin from the environment",
+        "Heals minor irritations"
+      ],
+      "howto": "Apply a thin layer to dry or rough areas as needed."
+    },
+    {
+      "id": "mahanarayan",
+      "name": "Mahanarayan Oil",
+      "cat": "cold",
+      "price": 240,
+      "size": "Massage Oil · 100 ml",
+      "desc": "A traditional Ayurvedic massage oil with Ashwagandha, ginger and sesame oil, known to soothe joints.",
+      "images": [
+        "/images/mahanarayan.jpeg"
+      ],
+      "benefits": [
+        "Relieves joint pain and stiffness",
+        "Promotes muscle relaxation",
+        "Boosts circulation",
+        "Reduces inflammation"
+      ],
+      "howto": "Warm slightly and massage onto the affected joints or muscles once or twice daily. For external use only."
+    },
+    {
+      "id": "pranafuel-serum",
+      "name": "Pranafuel Hair Growth Serum",
+      "cat": "hair",
+      "price": 450,
+      "size": "Serum · 50 ml",
+      "desc": "A natural topical serum with Gotu Kola, Bakuchi, Palasha and Satavari to stimulate follicles and thicker hair.",
+      "images": [
+        "/images/pranafuel-serum.jpeg"
+      ],
+      "benefits": [
+        "Promotes thicker, stronger hair",
+        "Reduces hair fall effectively",
+        "Nourishes the scalp",
+        "Adds natural shine",
+        "Suitable for all hair types"
+      ],
+      "howto": "Apply a few drops directly to the scalp and massage gently. Leave on. Use daily, or as directed, for best results."
+    },
+    {
+      "id": "pranafuel-oil",
+      "name": "Pranafuel Bio Hair Oil",
+      "cat": "hair",
+      "price": 380,
+      "size": "Hair Oil · 100 ml",
+      "desc": "A nourishing Ayurvedic blend with Bhringraj, Amla and Brahmi, with a plant-derived biotin booster.",
+      "images": [
+        "/images/pranafuel-oil.jpeg"
+      ],
+      "benefits": [
+        "Strengthens hair follicles",
+        "Promotes natural hair growth",
+        "Reduces breakage",
+        "Nourishes with essential oils"
+      ],
+      "howto": "Massage into the scalp and hair, leave for 1–2 hours or overnight, then wash off. Use 2–3 times a week."
+    },
+    {
+      "id": "gray-black",
+      "name": "Gray to Black Hair Oil",
+      "cat": "hair",
+      "price": 420,
+      "size": "Hair Oil · 100 ml",
+      "desc": "A unique blend combining Ayurvedic tradition with modern science to support natural hair pigmentation.",
+      "images": [
+        "/images/gray-black.webp"
+      ],
+      "benefits": [
+        "Nourishes scalp and stimulates follicles",
+        "Reduces hair fall and breakage",
+        "Enhances texture and natural gloss",
+        "Supports natural pigmentation"
+      ],
+      "howto": "Massage into the scalp regularly, leave on, then wash. Use consistently over time for best results."
+    },
+    {
+      "id": "ambehalad",
+      "name": "Ambehalad Churna",
+      "cat": "wellness",
+      "price": 130,
+      "size": "Turmeric · 50 g",
+      "desc": "An Ayurvedic herbal powder made from turmeric, renowned for its high antioxidant content.",
+      "images": [
+        "/images/ambehalad.jpeg"
+      ],
+      "benefits": [
+        "Supports joint health and mobility",
+        "Promotes healthy digestion",
+        "Helps manage inflammation",
+        "High in antioxidants"
+      ],
+      "howto": "Take ½ teaspoon with warm water or milk, once daily."
+    },
+    {
+      "id": "amla",
+      "name": "Amla Churna",
+      "cat": "wellness",
+      "price": 50,
+      "size": "Churna · 50 g",
+      "desc": "A potent Ayurvedic powder of dried Indian gooseberry, prized for its high vitamin C and antioxidants.",
+      "images": [
+        "/images/amala-churna/amla-churna-2.jpeg",
+        "/images/amala-churna/amla-churna-1.webp",
+        "/images/amala-churna/amla-churna-4.webp"
+      ],
+      "benefits": [
+        "Boosts immunity and vitality",
+        "Enhances digestion and metabolism",
+        "Rich in antioxidants for detox",
+        "Supports healthy hair and skin"
+      ],
+      "howto": "Mix ½–1 teaspoon in water, once daily, preferably in the morning."
+    },
+    {
+      "id": "jyeshthamadha",
+      "name": "Jyeshthamadha Churna",
+      "cat": "wellness",
+      "price": 60,
+      "size": "Licorice · 50 g",
+      "desc": "A traditional Ayurvedic powder from licorice root that supports respiratory and digestive health.",
+      "images": [
+        "/images/jyeshthamadha.jpeg"
+      ],
+      "benefits": [
+        "Reduces acidity and bloating",
+        "Eases cough and congestion",
+        "Antioxidant-rich, protects cells",
+        "Boosts the body's defences"
+      ],
+      "howto": "Take ¼–½ teaspoon with honey or warm water, once or twice daily."
+    },
+    {
+      "id": "ashwagandha",
+      "name": "Ashwagandha Churna",
+      "cat": "wellness",
+      "price": 60,
+      "size": "Adaptogen · 50 g",
+      "desc": "A powdered form of the traditional Ashwagandha root, known for its adaptogenic, stress-relieving properties.",
+      "images": [
+        "/images/ashwagandha-churna/ashwagandha-churna-3.jpeg",
+        "/images/ashwagandha-churna/ashwagandha-churna-2.webp",
+        "/images/ashwagandha-churna/ashwagandha-churna-1.webp",
+        "/images/ashwagandha-churna/ashwagandha-churna-4.webp"
+      ],
+      "benefits": [
+        "Reduces stress and anxiety naturally",
+        "Boosts immunity and resilience",
+        "Enhances memory and focus",
+        "Improves strength and endurance"
+      ],
+      "howto": "Mix ½–1 teaspoon in warm milk or water, once or twice daily, preferably after meals."
+    },
+    {
+      "id": "dikamali",
+      "name": "Dikamali Churna",
+      "cat": "baby",
+      "price": 60,
+      "size": "Teething Powder · 5 g",
+      "desc": "A natural gum-resin from Gardenia gummifera, traditionally used to soothe teething in infants.",
+      "images": [
+        "/images/dikamali.jpeg"
+      ],
+      "benefits": [
+        "Soothes teething discomfort",
+        "Strengthens developing gums",
+        "Helps calm irritability",
+        "Supports feeding during teething"
+      ],
+      "howto": "Use for infants strictly as directed on the label and under the guidance of a paediatrician."
+    },
+    {
+      "id": "balm",
+      "name": "Rapsco's Balm",
+      "cat": "cold",
+      "price": 35,
+      "size": "Pain Balm · 10 ml",
+      "desc": "An extra-strong herbal balm for fast relief from headaches, muscle aches and minor discomfort.",
+      "images": [
+        "/images/rapscos-balm/rapscos-balm-1.jpeg",
+        "/images/rapscos-balm-4.jpeg",
+        "/images/rapscos-balm/rapscos-balm-2.webp",
+        "/images/rapscos-balm/rapscos-balm-3.webp"
+      ],
+      "benefits": [
+        "Relieves headaches and muscle aches",
+        "Helps ease nasal congestion",
+        "Soothes minor joint discomfort",
+        "Fast-acting formula"
+      ],
+      "howto": "Apply a small amount to the affected area and massage gently. For external use only. Avoid contact with eyes."
+    },
+    {
+      "id": "rub",
+      "name": "Rapsco's Rub",
+      "cat": "cold",
+      "price": 20,
+      "size": "Cold Rub · 5 g",
+      "desc": "A gentle rub that relieves cold symptoms with natural oils — soothes up to six cold symptoms.",
+      "images": [
+        "/images/rapscos-rub/rapscos-rub-1.jpeg",
+        "/images/rapscos-rub/rapscos-rub-2.webp",
+        "/images/rapscos-rub/rapscos-rub-3.webp",
+        "/images/rapscos-rub/rapscos-rub-4.webp"
+      ],
+      "benefits": [
+        "Relieves nasal congestion",
+        "Eases cough",
+        "Soothes muscle aches",
+        "Provides fast, effective relief"
+      ],
+      "howto": "Gently rub a small amount on the chest, throat or back. For external use; avoid the nostrils in young children."
+    },
+    {
+      "id": "bhaubali",
+      "name": "Bahubali Lep",
+      "cat": "cold",
+      "price": 25,
+      "size": "Lep · 10 g",
+      "desc": "A topical herbal formulation used as a pain reliever and anti-inflammatory for muscle pain and cramps.",
+      "images": [
+        "/images/bhaubali.jpeg"
+      ],
+      "benefits": [
+        "Relieves muscle pain and cramps",
+        "Reduces swelling and fluid retention",
+        "Relaxes tense muscles",
+        "Eases stiffness"
+      ],
+      "howto": "Apply a thin layer to the affected area and leave on as directed. For external use only."
+    },
+    {
+      "id": "multani",
+      "name": "Multani Mitti",
+      "cat": "skin",
+      "price": 80,
+      "size": "Fuller's Earth · 100 g",
+      "desc": "A natural mineral-rich clay (Fuller's earth) used in face masks to clarify and improve complexion.",
+      "images": [
+        "/images/multani.jpeg"
+      ],
+      "benefits": [
+        "Clears skin impurities",
+        "Reduces excess oil",
+        "Soothes and cools skin",
+        "Improves tone and tightens pores"
+      ],
+      "howto": "Mix with water or rose water into a paste, apply as a mask for 15–20 minutes, then rinse. Use 1–2 times weekly."
+    },
+    {
+      "id": "glycerin",
+      "name": "Glycerin",
+      "cat": "skin",
+      "price": 70,
+      "size": "Pure & Gentle",
+      "desc": "A gentle humectant that attracts and retains moisture, highly effective for skin hydration.",
+      "images": [
+        "/images/glycerin.webp"
+      ],
+      "benefits": [
+        "Moisturises and hydrates skin",
+        "Helps protect the skin barrier",
+        "Promotes smooth, soft skin"
+      ],
+      "howto": "Apply a small amount to the skin, or dilute with water or rose water before use. Use as needed."
+    },
+    {
+      "id": "encounter-x",
+      "name": "Encounter X",
+      "cat": "mens",
+      "price": 499,
+      "size": "Single-Dose Churna · 2000 mg",
+      "desc": "A fast-acting Ayurvedic formulation designed to enhance stamina, strength and confidence.",
+      "images": [
+        "/images/encounter-x.jpeg"
+      ],
+      "benefits": [
+        "Rapid onset for spontaneity",
+        "Extended duration and endurance",
+        "Boosts self-assurance",
+        "Enhances overall satisfaction"
+      ],
+      "howto": "Take one single-dose sachet with water about 30–45 minutes before activity. Do not exceed one dose in 24 hours. Adult use only."
+    },
+    {
+      "id": "castor-oil",
+      "name": "Castor Oil",
+      "cat": "skin",
+      "price": 85,
+      "size": "Oil · 100 ml",
+      "desc": "An Ayurvedic oil valued for emollient properties that nourish skin, hair and the digestive system.",
+      "images": [
+        "/images/castor-oil.jpeg"
+      ],
+      "benefits": [
+        "Promotes hair growth",
+        "Hydrates and moisturises skin",
+        "Supports digestive health"
+      ],
+      "howto": "For hair and skin, massage a small amount onto the area. For internal use, follow the directions on the label."
+    },
+    {
+      "id": "boric-acid",
+      "name": "Boric Acid I.P.",
+      "cat": "skin",
+      "price": 65,
+      "size": "Powder · 100 g",
+      "desc": "A pharmaceutical-grade compound with antiseptic and antifungal properties.",
+      "images": [
+        "/images/boric-acid.jpeg"
+      ],
+      "benefits": [
+        "Antiseptic action",
+        "Antifungal properties",
+        "Soothing for minor uses"
+      ],
+      "howto": "Use strictly as directed and per medical advice. For external use only. Keep away from children."
+    },
+    {
+      "id": "sapta-agni",
+      "name": "Sapta Agni Herbal Syrup",
+      "cat": "wellness",
+      "price": 0,
+      "size": "Herbal Syrup · 500 ml",
+      "desc": "A classical Ayurvedic formulation of seven digestive herbs (Sapta Agni) by Pranafuel, crafted to kindle the digestive fire and balance the gut.",
+      "images": [
+        "/images/sapta-agni.jpeg"
+      ],
+      "benefits": [
+        "Supports healthy digestion",
+        "Relieves bloating and gas",
+        "Boosts appetite and metabolism",
+        "Helps balance the three doshas"
+      ],
+      "howto": "Take 2 teaspoons (10 ml) with water before meals, once or twice daily, or as directed."
+    },
+    {
+      "id": "bio-ortho-balm",
+      "name": "bioOrtho Balm",
+      "cat": "cold",
+      "price": 0,
+      "size": "Joint & Muscle Balm · 50 ml",
+      "desc": "A 100% Ayurvedic balm formulated to soothe joint discomfort, ease muscle stiffness and support flexibility — for active, mobile living.",
+      "images": [
+        "/images/bio-ortho-balm.jpeg"
+      ],
+      "benefits": [
+        "Soothes joint discomfort",
+        "Eases muscle stiffness and soreness",
+        "Supports flexibility and mobility",
+        "Comforts tired muscles",
+        "Made with natural Ayurvedic ingredients"
+      ],
+      "howto": "Apply a small amount to the affected joint or muscle and massage gently. Use as needed. For external use only."
+    },
+    {
+      "id": "r-kuf",
+      "name": "R-kuf Herbal Cough Syrup",
+      "cat": "cold",
+      "price": 0,
+      "size": "Herbal Cough Syrup · 200 ml",
+      "desc": "A herbal cough syrup with Adulsa, Tulsi, Haldi, Anar and Saal — no added colours, no added sugar. Science of herbs, power of relief.",
+      "images": [
+        "/images/r-kuf.jpeg"
+      ],
+      "benefits": [
+        "Soothes the throat and relieves cough",
+        "Supports respiratory health",
+        "No added colours or sugar",
+        "Safe and effective herbal formula",
+        "Relief that frees you"
+      ],
+      "howto": "Adults: 2 teaspoons (10 ml) two to three times a day. Children: 1 teaspoon, or as directed by a physician."
+    },
+    {
+      "id": "bio-ortho-oil",
+      "name": "bioOrtho Oil",
+      "cat": "cold",
+      "price": 0,
+      "size": "Joint Pain Relief Oil · 50 ml",
+      "desc": "A 100% Ayurvedic roll-on oil with Mahanarayan Tail, Gandhapura Tail, Wintergreen, Eucalyptus and Nirgundi Extract for fast, deep-penetrating joint-pain relief.",
+      "images": [
+        "/images/bio-ortho-oil.jpeg"
+      ],
+      "benefits": [
+        "Relieves joint and muscle pain",
+        "Reduces swelling",
+        "Improves mobility and flexibility",
+        "Strengthens joints",
+        "Fast relief, deep penetration"
+      ],
+      "howto": "Roll on and massage gently into the affected area. Use 2–3 times daily. For external use only."
+    },
+    {
+      "id": "madhustha-juice",
+      "name": "Madhustha Juice",
+      "cat": "wellness",
+      "price": 0,
+      "size": "Blood Sugar Juice · 500 ml",
+      "desc": "An Ayurvedic herbal juice by Pranafuel with Karela, Jamun, Madhuparni, Methi, Amla, Gudmar and Dalchini to support healthy blood sugar levels — no added sugar.",
+      "images": [
+        "/images/madhustha-juice.jpeg"
+      ],
+      "benefits": [
+        "Supports healthy blood glucose levels",
+        "Improves glucose metabolism",
+        "Rich in antioxidants",
+        "No added sugar or artificial colours",
+        "Safe for vegetarians"
+      ],
+      "howto": "Take 30 ml with water before meals, twice daily. Shake well before use. Refrigerate after opening and consume within 32 days."
+    },
+    {
+      "id": "raayba-charcoal",
+      "name": "Raayba Charcoal Toothpaste",
+      "cat": "skin",
+      "price": 0,
+      "size": "Charcoal Toothpaste",
+      "desc": "An Ayurvedic charcoal toothpaste with Activated Charcoal, Menthol and Akrod (walnut) for deep cleaning, fresh breath and healthier gums. Fluoride-free, paraben-free, SLS-free.",
+      "images": [
+        "/images/raayba-charcoal.jpeg"
+      ],
+      "benefits": [
+        "Deeply cleans and removes stains",
+        "Freshens breath all day",
+        "Supports healthier gums",
+        "Fluoride-free, paraben-free, SLS-free",
+        "100% Ayurvedic formulation"
+      ],
+      "howto": "Apply a pea-sized amount to your toothbrush and brush gently for two minutes, twice daily."
+    },
+    {
+      "id": "raayba-toothpaste",
+      "name": "Raayba Tooth Paste",
+      "cat": "skin",
+      "price": 0,
+      "size": "Herbal Toothpaste · Complete Oral Care",
+      "desc": "A pure Ayurvedic toothpaste for stronger teeth, healthier gums and fresher breath — formulated with traditional herbal ingredients trusted since 1933.",
+      "images": [
+        "/images/raayba-toothpaste.jpeg"
+      ],
+      "benefits": [
+        "Cleanses teeth effectively",
+        "Freshens breath naturally",
+        "Supports healthier, stronger gums",
+        "100% natural Ayurvedic care"
+      ],
+      "howto": "Apply a pea-sized amount to your toothbrush and brush gently for two minutes, twice daily."
+    },
+    {
+      "id": "raayba-tooth-powder",
+      "name": "Raayba Tooth Powder",
+      "cat": "skin",
+      "price": 0,
+      "size": "Ayurvedic Tooth Powder · 200 g",
+      "desc": "A traditional Ayurvedic tooth powder for daily oral care — stronger teeth, healthier gums and fresher breath, naturally. Pure herbal formulation, safe for daily use.",
+      "images": [
+        "/images/raayba-tooth-powder.jpeg"
+      ],
+      "benefits": [
+        "Cleanses and whitens teeth",
+        "Freshens breath naturally",
+        "Supports gum health",
+        "Safe for daily use",
+        "Inspired by Ayurveda"
+      ],
+      "howto": "Dip a wet finger or toothbrush into the powder and brush gently. Use once or twice daily."
+    },
+    {
+      "id": "shikekai",
+      "name": "Shikekai Powder",
+      "cat": "hair",
+      "price": 0,
+      "size": "Hair Cleansing Powder · 50 g",
+      "desc": "A traditional Ayurvedic hair cleanser made from Shikekai pods — gentle, chemical-free cleansing and conditioning that leaves hair soft and naturally shiny.",
+      "images": [
+        "/images/shikekai.jpeg"
+      ],
+      "benefits": [
+        "Gently cleanses hair and scalp",
+        "Conditions without harsh chemicals",
+        "Reduces hair fall",
+        "Promotes natural shine",
+        "Suitable for all hair types"
+      ],
+      "howto": "Mix 1–2 teaspoons with water into a paste, apply to wet hair and scalp, massage gently, then rinse. Use 1–2 times a week."
+    }
+  ],
+  "featured": [
+    "saunf-ark",
+    "clove-oil",
+    "balm",
+    "dikamali"
+  ],
+  "blog": [
+    {
+      "id": "legacy",
+      "title": "Three Generations: The Rapscos Legacy Since 1933",
+      "tag": "Heritage",
+      "date": "Our Story",
+      "img": "/images/mfg-building-photo.webp",
+      "excerpt": "How a single trusted remedy grew into a complete house of Ayurvedic wellness, carried forward by family.",
+      "body": "<p>In 1933, Rajmal Premraj Khatod founded Rapscos with a simple belief: that authentic Ayurveda, made to the highest standards, could care for everyday families. The name was officially trademarked in 1946 — and over nine decades it has become a household trust across Maharashtra and beyond.</p><h3>From one remedy to a full range</h3><p>What began with classical preparations now spans churnas, syrups, oils, skincare, hair care, baby care and more — every formulation rooted in tradition and refined with modern research.</p><p>Today, under the leadership of the third generation, Dr. Pritish Khatod, Rapscos unites that heritage with a GMP-certified, FDA-approved facility built for both Indian families and global export.</p>"
+    },
+    {
+      "id": "churna",
+      "title": "Churna 101: How Ayurvedic Powders Support Daily Wellness",
+      "tag": "Wellness",
+      "date": "Guide",
+      "img": "/images/amala-churna/amla-churna-2.jpeg",
+      "excerpt": "Amla, Ashwagandha, Ambehalad and more — a simple guide to using classical herbal powders.",
+      "body": "<p>A churna is a finely milled herbal powder — one of Ayurveda's oldest and most versatile formats. Taken with warm water, milk or honey, churnas are an easy way to bring the benefits of single herbs into a daily routine.</p><h3>Our most-loved churnas</h3><p><b>Amla</b> for immunity and antioxidants, <b>Ashwagandha</b> for calm and strength, <b>Ambehalad</b> (turmeric) for joints and digestion, and <b>Jyeshthamadha</b> (licorice) for the throat and gut.</p><p>As always, follow the directions on each pack, and consult a physician if you are pregnant, nursing or on medication.</p>"
+    },
+    {
+      "id": "facility",
+      "title": "From Herb to Shelf: Inside Our GMP-Certified Facility",
+      "tag": "Quality",
+      "date": "Behind the Scenes",
+      "img": "/images/mfg-fill-photo.webp",
+      "excerpt": "A look at the automated filling, labelling and quality checks behind every Rapscos product.",
+      "body": "<p>Quality is never an accident. At our Nashik facility, every product moves through automated liquid-filling and round-bottle labelling lines designed for precision and hygiene.</p><h3>Tested, every batch</h3><p>As a GMP-certified and FDA-approved manufacturer, we hold every batch to stringent quality and safety standards — and build our formulations to meet international compliance, ready for global export.</p><p>It's how a 1933 promise stays trustworthy in 2025: timeless wisdom, modern assurance.</p>"
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1933",
+      "title": "The Beginning",
+      "text": "Founded by Rajmal Premraj Khatod on a promise of authentic herbal healing."
+    },
+    {
+      "year": "1946",
+      "title": "The Trademark",
+      "text": "The Rapscos name is officially registered."
+    },
+    {
+      "year": "Today",
+      "title": "Third Generation",
+      "text": "Led by Dr. Pritish Khatod, uniting Ayurveda with modern research."
+    },
+    {
+      "year": "Now",
+      "title": "World Standards",
+      "text": "GMP, FDA & AYUSH-aligned manufacturing, built for export."
+    }
+  ],
+  "mission": [
+    {
+      "title": "Quality & Safety",
+      "text": "Upholding the highest GMP & FDA standards."
+    },
+    {
+      "title": "Innovation",
+      "text": "Integrating traditional Ayurveda with modern research."
+    },
+    {
+      "title": "Global Presence",
+      "text": "Meeting international compliance standards."
+    },
+    {
+      "title": "Sustainability",
+      "text": "Eco-friendly practices & ethical sourcing."
+    },
+    {
+      "title": "Customer-Centric",
+      "text": "Effective, trusted, affordable healthcare worldwide."
+    }
+  ]
+}

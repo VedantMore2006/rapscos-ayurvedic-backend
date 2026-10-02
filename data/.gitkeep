@@ -1,0 +1,1 @@
+# Keeps backend/data in git while ignoring .db files

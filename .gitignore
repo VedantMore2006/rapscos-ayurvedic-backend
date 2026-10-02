@@ -1,0 +1,29 @@
+# Python & Virtualenv
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+*.log
+
+# Persistent local runtime data & media
+data/*.db
+data/*.db-journal
+data/*.db-wal
+data/*.db-shm
+data/accounts.json
+accounts.json
+media/*
+!media/.gitkeep
+!data/.gitkeep
+!data/content.json
+
+# Environment & Secrets
+.env
+.env.*
+*.env
+
+# OS & Editor
+.DS_Store
+.idea/
+.vscode/
