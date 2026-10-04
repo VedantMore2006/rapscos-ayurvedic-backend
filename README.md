@@ -107,3 +107,31 @@ python scripts/seed.py
 # 4. Start local development server
 uvicorn app.main:app --reload --port 8777
 ```
+
+---
+
+## 🌐 Repository Ecosystem & Architecture
+
+The project ecosystem is organized across three GitHub repositories/remotes:
+
+| Repository | Owner | Remote Name | Primary Role & Deployment |
+|---|---|---|---|
+| [`VedantMore2006/rapscos-ayurvedic-backend`](https://github.com/VedantMore2006/rapscos-ayurvedic-backend) | **Vedant** | Standalone VPS | **Production Backend API**<br>• Host: VPS (`88.222.212.15`)<br>• Docker Container: `rapscos-ayurvedic` (port `8094` ➔ `8777`)<br>• Reverse Proxy: Nginx + Let's Encrypt SSL<br>• Live Domain: `https://api.rapscosbio.com` |
+| [`VedantMore2006/rapscos-ayurvedic-frontend`](https://github.com/VedantMore2006/rapscos-ayurvedic-frontend) | **Vedant** | `origin` | **Production Frontend & Deployment Repo**<br>• Host: GoDaddy cPanel (`public_html`)<br>• CI/CD: Automated GitHub Action (`deploy.yml`) via FTP<br>• Target Branches: `main`, `backend`<br>• Live Domain: `https://www.rapscosbio.com`<br>• Live Admin Panel: `https://www.rapscosbio.com/admin` |
+| [`Surajivarkar/rapscos-ayurvedic`](https://github.com/Surajivarkar/rapscos-ayurvedic) | **Suraj** | `upstream` | **Upstream Frontend Development Repo**<br>• Working Branch: `backend`<br>• Role: Source repository for frontend features & UI iterations |
+
+### Multi-Remote Synchronization Workflow
+
+To pull fresh UI updates from Suraj's repo and automatically deploy them live to GoDaddy:
+
+```bash
+# 1. Pull latest UI code from Suraj
+git pull upstream backend
+
+# 2. Test or build locally (optional)
+npm run build
+
+# 3. Push to your production repo (automatically triggers GoDaddy FTP deploy)
+git push origin main
+```
+
