@@ -176,6 +176,10 @@ async def save_content(
                 disk_content["categories"] = categories_data
                 disk_content["products"] = products_data
                 disk_content["featured"] = list(featured_set)
+                if "home" in new_content and isinstance(new_content["home"], dict):
+                    disk_content["home"] = {**disk_content.get("home", {}), **new_content["home"]}
+                if "site" in new_content and isinstance(new_content["site"], dict):
+                    disk_content["site"] = {**disk_content.get("site", {}), **new_content["site"]}
                 with open(c_path, "w", encoding="utf-8") as f:
                     json.dump(disk_content, f, indent=2, ensure_ascii=False)
             except Exception as err:
@@ -183,6 +187,19 @@ async def save_content(
 
     at_str = datetime.utcnow().isoformat()
     return {"ok": True, "at": at_str}
+
+
+@router.get("/api/content/public")
+async def get_public_content():
+    """
+    Public endpoint returning dynamic site and home banner/stats configuration
+    for the storefront.
+    """
+    static_data = load_static_content()
+    return {
+        "home": static_data.get("home", {}),
+        "site": static_data.get("site", {}),
+    }
 
 
 @router.get("/api/publish")

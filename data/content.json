@@ -12,12 +12,22 @@
   },
   "home": {
     "heroBadge": "Trusted by 20 lakh+ people every year",
+    "heroTitle1": "The Art of",
+    "heroTitleItalic": "Herbal",
+    "heroTitle2": "Wellness",
     "heroText": "Since 1933, Rapscos has blended timeless Ayurvedic wisdom with modern science — crafting trusted remedies loved across three generations.",
     "heroImageBack": "/images/kofyx.jpeg",
     "heroImageFront": "/images/saunf-ark.jpeg",
     "servedCount": 20,
     "servedSuffix": " Lakh+",
     "servedLabel": "People served every year",
+    "yearsHeritage": 93,
+    "yearsSuffix": "",
+    "yearsLabel": "Years of Ayurvedic heritage",
+    "generationsCount": 3,
+    "generationsSuffix": "",
+    "generationsLabel": "Generations of the Khatod family",
+    "formulationsLabel": "Herbal formulations",
     "needs": [
       {
         "cat": "wellness",
